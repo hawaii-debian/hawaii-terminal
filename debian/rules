@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --dbg-package=hawaii-terminal-dbg --list-missing --parallel
+

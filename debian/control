@@ -1,0 +1,24 @@
+Source: hawaii-terminal
+Section: misc
+Priority: optional
+Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Build-Depends: debhelper (>= 9), cmake,
+ qtbase5-dev, qtdeclarative5-dev
+Standards-Version: 3.9.5
+Homepage: http://www.maui-project.org/
+
+Package: hawaii-terminal
+Architecture: any
+Provides: x-terminal-emulator
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: console app for the Hawaii desktop
+ console app for the Hawaii desktop
+
+Package: hawaii-terminal-dbg
+Architecture: any
+Section: debug
+Depends: hawaii-terminal (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for the hawaii-terminal package
+ This package contains the debugging symbols for the hawaii-terminal
+ package.
+
