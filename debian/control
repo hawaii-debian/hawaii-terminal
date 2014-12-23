@@ -10,7 +10,7 @@ Homepage: http://www.maui-project.org/
 Package: hawaii-terminal
 Architecture: any
 Provides: x-terminal-emulator
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: qml-module-yat, ${shlibs:Depends}, ${misc:Depends}
 Description: console app for the Hawaii desktop
  console app for the Hawaii desktop
 
